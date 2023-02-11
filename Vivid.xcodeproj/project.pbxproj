@@ -13,6 +13,8 @@
 		3838A31A2997F80700063CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3838A3192997F80700063CBC /* Preview Assets.xcassets */; };
 		3838A31C2997F80700063CBC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838A31B2997F80700063CBC /* Persistence.swift */; };
 		3838A31F2997F80700063CBC /* Vivid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3838A31D2997F80700063CBC /* Vivid.xcdatamodeld */; };
+		3838A3272997FDAB00063CBC /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838A3262997FDAB00063CBC /* ARView.swift */; };
+		3838A3292997FE9A00063CBC /* DrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838A3282997FE9A00063CBC /* DrawingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3838A31B2997F80700063CBC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3838A31E2997F80700063CBC /* Vivid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vivid.xcdatamodel; sourceTree = "<group>"; };
 		3838A3202997F80700063CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3838A3262997FDAB00063CBC /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		3838A3282997FE9A00063CBC /* DrawingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				3838A3122997F80600063CBC /* VividApp.swift */,
 				3838A3142997F80600063CBC /* ContentView.swift */,
+				3838A3262997FDAB00063CBC /* ARView.swift */,
+				3838A32A2997FFF700063CBC /* Model */,
 				3838A3162997F80700063CBC /* Assets.xcassets */,
 				3838A31B2997F80700063CBC /* Persistence.swift */,
 				3838A3202997F80700063CBC /* Info.plist */,
@@ -73,6 +79,14 @@
 				3838A3192997F80700063CBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3838A32A2997FFF700063CBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3838A3282997FE9A00063CBC /* DrawingModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3838A3272997FDAB00063CBC /* ARView.swift in Sources */,
 				3838A31F2997F80700063CBC /* Vivid.xcdatamodeld in Sources */,
 				3838A31C2997F80700063CBC /* Persistence.swift in Sources */,
 				3838A3152997F80600063CBC /* ContentView.swift in Sources */,
+				3838A3292997FE9A00063CBC /* DrawingModel.swift in Sources */,
 				3838A3132997F80600063CBC /* VividApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
